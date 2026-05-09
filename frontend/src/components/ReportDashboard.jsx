@@ -23,7 +23,7 @@ export default function ReportDashboard() {
   const fileInputRef = useRef(null);
   const API_BASE_URL =
     process.env.NEXT_PUBLIC_API_BASE_URL ||
-    "https://automated-ai-report-generator-1.onrender.com";
+    "https://automated-ai-report-generator.onrender.com";
 
   // =========================
   // FILE HANDLING
