@@ -77,11 +77,10 @@ htmlcov/
 # =========================================
 # TEST FILES
 # =========================================
-
-test_*.py
-*_test.py
-test.csv
-dummy.csv
+# Ignore all backend test files
+backend/test_*.py
+backend/test.csv
+backend/dummy.csv
 
 # output files
 response.json
