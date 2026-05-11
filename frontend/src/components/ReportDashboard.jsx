@@ -253,9 +253,10 @@ export default function ReportDashboard() {
             {file && !loading && (
               <div className="space-y-4 max-w-sm mx-auto pt-4">
                 <input
-                  type="password"
+                  type="text"
                   placeholder="Optional: Enter Gemini API Key"
                   value={apiKey}
+                  autoComplete="off"
                   onChange={(e) => {
                     e.stopPropagation();
                     setApiKey(e.target.value);
