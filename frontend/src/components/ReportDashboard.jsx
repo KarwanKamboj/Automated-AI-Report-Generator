@@ -217,7 +217,9 @@ export default function ReportDashboard() {
             onDragLeave={handleDragLeave}
             onDrop={handleDrop}
             onClick={(e) => {
-              if (e.target === e.currentTarget) {
+              const tag = e.target.tagName;
+
+              if (tag !== "INPUT" && tag !== "BUTTON") {
                 fileInputRef.current?.click();
               }
             }}
