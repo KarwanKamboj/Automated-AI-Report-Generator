@@ -2,6 +2,9 @@
 
 An AI-powered analytics platform that automatically processes datasets, generates visualizations, extracts insights using LLMs, and creates downloadable PDF reports.
 
+## Live Demo
+🔗 https://automated-ai-report-generator.vercel.app/
+
 ## Features
 
 - Upload CSV, XLSX, and XLS files
